@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 st.header("RFM Analysis")
 st.subheader("About the App")
 st.write("*This App performs RFM Analysis.")
-st.write("*User need to input excel invoice file and choose appropriate columns. Sample file can be found in github repo")
+st.write("*User need to input excel invoice file and choose appropriate columns. Sample file can be found in github repo https://github.com/gacloudi/RFM")
 st.write("*User also need to input threshold days for Active/Inactive Calculation")
 st.write("*Based on RFM-Recency,Frequency & Montary Score, Customers are classified into:")
 st.write("*1.Loyal 2.Passive 3.Super Passive 4.Lost")
