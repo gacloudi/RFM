@@ -7,7 +7,7 @@ import bisect
 import plotly.graph_objects as go
 st.header("RFM Analysis")
 st.subheader("About the App")
-st.write("*This App performs RFM Analysis.")
+st.write("*This App performs RFM Analysis. Learn more about RFM analysis- https://www.investopedia.com/terms/r/rfm-recency-frequency-monetary-value.asp")
 st.write("*User need to input excel invoice file and choose appropriate columns. Sample file can be found in github repo https://github.com/gacloudi/RFM")
 st.write("*User also need to input threshold days for Active/Inactive Calculation")
 st.write("*Based on RFM Score-[Recency, Frequency & Monetary], Customers are classified into:")
